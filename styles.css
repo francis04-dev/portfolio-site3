@@ -1,9 +1,9 @@
 :root {
-    usf-green: #0006747;
-    usf-gold: #fdbb30;
-    white: #ffffff;
-    textdark: #333333;
-    linkhover: #fdbb30;
+    --usf-green: #0006747;
+    --usf-gold: #fdbb30;
+    --white: #ffffff;
+    --textdark: #333333;
+    --linkhover: #fdbb30;
 }
 
 body {
@@ -29,7 +29,7 @@ header h1 {
 
 header p {
     margin-top: 0.5rem;
-    font-size: 1rem
+    font-size: 1rem;
 }
 
 main {
