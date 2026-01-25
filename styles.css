@@ -1,0 +1,80 @@
+:root {
+    usf-green: #0006747;
+    usf-gold: #fdbb30;
+    white: #ffffff;
+    textdark: #333333;
+    linkhover: #fdbb30;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    color: var(--textdark);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--usf-green);
+    color: var(--white);
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1rem
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: var(--usf-green);
+    border-bottom: 2px solid var(--usf-gold);
+    padding-bottom: 0.3rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: var(--usf-green);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--linkhover);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--usf-green);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.contact-info {
+    margin-top: 0.25rem;
+}
