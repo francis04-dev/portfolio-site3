@@ -1,4 +1,4 @@
-let itemname = "USB-C Cable";
+let itemname = String "USB-C Cable";
 let unitCost = 15.00;
 let currentStock = 250;
 let reorderLevel = 50;
